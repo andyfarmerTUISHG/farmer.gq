@@ -1,7 +1,10 @@
 {
-	"recommendations": [
-		"ms-vscode.vscode-typescript-tslint-plugin",
-		"dbaeumer.vscode-eslint",
-		"msjsdiag.debugger-for-chrome"
-	]
+  "recommendations": [
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "dbaeumer.vscode-eslint",
+    "msjsdiag.debugger-for-chrome",
+    "vscode-icons-team.vscode-icons",
+    "sburg.vscode-javascript-booster",
+    "streetsidesoftware.code-spell-checker"
+  ]
 }
