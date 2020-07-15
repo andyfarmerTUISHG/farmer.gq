@@ -1,12 +1,15 @@
 {
-  "folders": [
-    {
-      "path": "."
-    }
-  ],
+  "folders": [{
+    "path": "."
+  }],
   "settings": {
     "cSpell.enabled": true,
     "npm.enableScriptExplorer": true,
     "jshint.enable": false
+  },
+  {
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    }
   }
 }
