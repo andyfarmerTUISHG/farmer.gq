@@ -1,6 +1,6 @@
 ---
 slug: "/blog/sphp-erro"
-title: "SPHP & MAc Getting out of date"
+title: "SPHP & Mac Getting out of date"
 date: "2020-07-09"
 tags: "php,brew"
 ---
