@@ -8,12 +8,18 @@
     "words": [
         "Atomics",
         "barebones",
+        "demos",
         "devtool",
         "Gatsby's",
         "gatsbyjs",
+        "mkcert",
+        "mkdir",
+        "nvmrc",
         "prettierrc",
+        "PWAs",
         "readonly",
-        "Vercel"
+        "Vercel",
+        "yourprofile"
     ],
     // flagWords - list of words to be always considered incorrect
     // This is useful for offensive words and common spelling errors.

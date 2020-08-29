@@ -1,6 +1,6 @@
 ---
 slug: "/blog/mentor-questions"
-title: "Mentoring...y"
+title: "Mentoring..."
 date: "2020-07-22"
 ---
 
@@ -29,10 +29,6 @@ When you have a mentor, you don’t just want them to tell you about when the ti
 
 To learn about success
 Of course, you’re also going to want to know what your mentor did right—how and when they succeeded—so you can take note and apply similar strategies in your own life. Here’s what to ask to learn more about winning:
-
-ADVERTISING
-
-Ads by Teads
 
 11. What decision netted you the most success in your career?
 

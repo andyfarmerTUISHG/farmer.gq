@@ -1,3 +1,9 @@
+---
+slug: "/blog/generic-react-handler"
+date: "20200-08-08"
+title: "React Generic Handler for any input type"
+---
+
 ```javascript
 const handleChange = evt => {
   const value =

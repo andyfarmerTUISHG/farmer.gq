@@ -5,8 +5,6 @@ date: "2020-07-04"
 tags: "tip,git"
 ---
 
-# Git tip: create a Git upstream alias
-
 When working with new local branches on your Git repo, pushing those changes remotely I was forever seeing
 
 ```bash
@@ -16,7 +14,7 @@ When working with new local branches on your Git repo, pushing those changes rem
       git push --set-upstream origin new-feature
 ```
 
-I've always struggled to remember the above git push command, so setup the following alias so I can stay within the terminal.
+I've always struggled to remember the above git push command, so set up the following alias so I can stay within the terminal.
 
 ```bash
 git config --global alias.upstream '!git push -u origin HEAD'

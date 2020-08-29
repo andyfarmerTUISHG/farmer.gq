@@ -18,20 +18,20 @@ As use macOS, use [Homebrew](https://brew.sh/)
 # Install mkcert tool
 brew install mkcert
 
-# Setup mkcert on your machine (creates a CA)
+# Set up mkcert on your machine (creates a CA)
 mkcert -install
 ```
 
 ## Step 2 - Create Certificate
 
-As I use mkcert for mutliple certificates, I like a SSL Certificate for each project I like to create a folder to store these - currently I keep this within the root of my Sites folder
+As I use mkcert for multiple certificates, I like a SSL Certificate for each project I like to create a folder to store these - currently I keep this within the root of my Sites folder
 
 ```bash
 mkdir -p ~/Sites/mkcert
 cd ~/Sites/mkcert
 ```
 
-To generate a certificale in our newly created folder, I like to user the following style of command.
+To generate a certificate in our newly created folder, I like to user the following style of command.
 
 ```bash
 mkcert -key-file ~/Sites/mkcert/localhost-key.pem -cert-file ~/Sites/mkcert/localhost-cert.pem "localhost"
@@ -85,7 +85,7 @@ Things to note -
 
 - We are requiring `https` rather than the typical `http`
 - We are using `https.createServer` instead of `http.createServer`
-- We are passing the key and certificate via the files system module and requires the fully qualified path to the files, ie dont use `~` use `/Users/{yourprofile}`
+- We are passing the key and certificate via the files system module and requires the fully qualified path to the files, ie don't use `~` use `/Users/{yourprofile}`
 
 Start the server with `node server.js`
 
