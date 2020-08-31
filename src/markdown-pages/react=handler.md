@@ -4,6 +4,8 @@ date: "20200-08-08"
 title: "React Generic Handler for any input type"
 ---
 
+Gotta give some text here....
+
 ```javascript
 const handleChange = evt => {
   const value =

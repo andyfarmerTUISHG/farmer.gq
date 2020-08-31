@@ -23,3 +23,4 @@ Slow burn project: inspired by
 
 1, [https://www.gatsbyjs.com/tutorial/part-one/](https://www.gatsbyjs.com/tutorial/part-one/)
 1, [](https://dennytek.com/blog/personal-site-with-gatsby-part-3)
+1, [Gatsby Guides / Osio Labs](https://gatsbyguides.com/)

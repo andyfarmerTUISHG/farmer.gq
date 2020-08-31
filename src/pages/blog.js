@@ -1,8 +1,7 @@
-import React from 'react'
-import { graphql , Link} from 'gatsby'
-import Layout from "../../components/layout";
-
-const BlogPage = ({data}) => {
+import React from 'react';
+import { graphql, Link } from 'gatsby';
+import Layout from '../components/layout';
+const BlogPage = ({ data }) => {
   const posts = data.allMarkdownRemark.edges;
   return (
     <Layout>
@@ -17,22 +16,23 @@ const BlogPage = ({data}) => {
             <Link to={post.node.frontmatter.slug}>Read More</Link>
           </div>
         ))}
+
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default BlogPage
+export default BlogPage;
 
 // Get all markdown data, in descending order by date, and grab the id, excerpt, slug, date, and title
 export const pageQuery = graphql`
   query {
-  allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}) {
-    edges{
-      node{
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+  	edges {
+      node {
         id
         excerpt(pruneLength: 250)
-        frontmatter{
+        frontmatter {
           date
           title
           slug
@@ -40,6 +40,5 @@ export const pageQuery = graphql`
       }
     }
   }
-}
+  }
 `;
-
