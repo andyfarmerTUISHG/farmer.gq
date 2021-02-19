@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.14](https://github.com/andyfarmerTUISHG/farmer.gq/compare/v0.1.13...v0.1.14) (2021-02-19)
+
+
+### Features
+
+* **project:** basic Alignment Changes and Intro of Styled Components ([bd03e91](https://github.com/andyfarmerTUISHG/farmer.gq/commit/bd03e91ae1e0ba52e256b3234ac5308a945a3460))
+
 ### [0.1.13](https://github.com/andyfarmerTUISHG/farmer.gq/compare/v0.1.12...v0.1.13) (2021-02-19)
 
 
