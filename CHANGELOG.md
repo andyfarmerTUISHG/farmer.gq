@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.13](https://github.com/andyfarmerTUISHG/farmer.gq/compare/v0.1.12...v0.1.13) (2021-02-19)
+
+
+### Features
+
+* **project:** wrap All pages with Layout Component as part of SSR & browser ([284f44b](https://github.com/andyfarmerTUISHG/farmer.gq/commit/284f44bd52ec6c7f9d37400d0c229cf660375d3a))
+
 ### [0.1.12](https://github.com/andyfarmerTUISHG/farmer.gq/compare/v0.1.11...v0.1.12) (2021-02-19)
 
 
