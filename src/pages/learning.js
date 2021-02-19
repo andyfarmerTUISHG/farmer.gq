@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import SEO from '../components/seo';
 
 function learning() {
   return (
     <div>
-      A page that list topics - and when I saw it???
+      <SEO title="Learning" />A page that list topics - and when I saw it???
     </div>
-  )
+  );
 }
 
-export default learning
+export default learning;

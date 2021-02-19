@@ -1,19 +1,32 @@
-import React from 'react'
+import { Link } from 'gatsby';
+import React from 'react';
+import NavStyles from '../styles/NavStyles';
 
 function Nav() {
   return (
-    <nav>
-      This is my navigation component
+    <NavStyles>
       <ul>
-        <li><a href="/articles/">Articles</a></li>
-        <li><a href="/tags">Tags</a></li>
-        <li><a href="/journal">Journal</a></li>
-        <li><a href="/learning">Learning</a></li>
-        <li><a href="/about">about</a></li>
-        <li><a href="/work">Work</a></li>
+        <li>
+          <Link to="/articles/">Articles</Link>
+        </li>
+        <li>
+          <Link to="/tags/">Tags</Link>
+        </li>
+        <li>
+          <Link to="/journal/">Journal</Link>
+        </li>
+        <li>
+          <Link to="/learning/">Learning</Link>
+        </li>
+        <li>
+          <Link to="/about/">About</Link>
+        </li>
+        <li>
+          <Link to="/work/">Work</Link>
+        </li>
       </ul>
-    </nav>
-  )
+    </NavStyles>
+  );
 }
 
-export default Nav
+export default Nav;
