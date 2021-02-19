@@ -10,6 +10,8 @@
     "settings": {
         "cSpell.enabled": true,
         "npm.enableScriptExplorer": true,
-        "jshint.enable": false
+        "jshint.enable": false,
+        "ponicode.testSettings.testLocation.locationType": "Same folder as source file",
+        "ponicode.testSettings.testLocation.path": "{rootDir}/{filePath}/{fileName}.test.{ext}"
     }
 }
