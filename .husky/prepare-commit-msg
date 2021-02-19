@@ -3,5 +3,5 @@ set -e
 
 branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
 if [[ ! "$branch" == "dev" && ! "$branch" == "master" && ! "$branch" == "fix-husky" ]]; then
-  exec </dev/tty && ./node_modules/.bin/git-cz --hook
+  exec </dev/tty && ./node_modules/.bin/git-cz --hook || true
 fi
