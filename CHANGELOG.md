@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.11](https://github.com/andyfarmerTUISHG/farmer.gq/compare/v0.1.10...v0.1.11) (2021-02-19)
+
+
+### Features
+
+* **project:** introduction of Normalize.css ([1e3c10c](https://github.com/andyfarmerTUISHG/farmer.gq/commit/1e3c10c0d0e6100f50ccc1a608dff463bb215f70))
+
 ### [0.1.10](https://github.com/andyfarmerTUISHG/farmer.gq/compare/v0.1.9...v0.1.10) (2021-02-19)
 
 
