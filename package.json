@@ -2,7 +2,7 @@
   "name": "andy-farmer-general-query",
   "private": true,
   "description": "A personal Gatsby WorkSpace",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "author": "Andy Farmer",
   "dependencies": {
     "gatsby": "^2.32.4",
