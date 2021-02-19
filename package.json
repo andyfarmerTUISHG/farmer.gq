@@ -2,7 +2,7 @@
   "name": "andy-farmer-general-query",
   "private": true,
   "description": "A personal Gatsby WorkSpace",
-  "version": "0.1.1",
+  "version": "0.1.9",
   "author": "Andy Farmer",
   "dependencies": {
     "gatsby": "^2.32.4",
@@ -56,8 +56,8 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "release": "standard-version && git push --follow-tags origin master",
-    "cz-install": "commitizen init cz-conventional-changelog --save-dev --save-exact --force"
+    "release": "standard-version",
+    "release-push": "standard-version && git push --follow-tags origin master"
   },
   "repository": {
     "type": "git",
@@ -66,15 +66,6 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "husky": {
-    "hooks": {
-        "applypatch-msg”: “echo \"[Husky] applypatch-msg\"”,
-        “pre-applypatch”: “echo \"[Husky] pre-applypatch\"”,
-        “post-applypatch”: “echo \"[Husky] post-applypatch\"”,
-        “pre-commit”: “echo \"[Husky] pre-commit\"”,
-        
     }
   }
 }
