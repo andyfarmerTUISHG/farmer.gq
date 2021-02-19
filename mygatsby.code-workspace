@@ -1,12 +1,15 @@
 {
-  "folders": [
-    {
-      "path": "."
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../farmer.gq.sanity"
+        }
+    ],
+    "settings": {
+        "cSpell.enabled": true,
+        "npm.enableScriptExplorer": true,
+        "jshint.enable": false
     }
-  ],
-  "settings": {
-    "cSpell.enabled": true,
-    "npm.enableScriptExplorer": true,
-    "jshint.enable": false
-  }
 }
