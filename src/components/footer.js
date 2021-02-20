@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const FooterStyles = styled.div`
-  border-top: 2px solid rebeccapurple;
+  border-top: 2px solid var(--purple);
   padding-top: 3rem;
   text-align: center;
 `;

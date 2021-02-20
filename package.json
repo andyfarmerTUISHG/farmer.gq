@@ -5,6 +5,7 @@
   "version": "0.1.14",
   "author": "Andy Farmer",
   "dependencies": {
+    "@sanity/block-content-to-react": "^2.0.7",
     "babel-plugin-styled-components": "^1.12.0",
     "dotenv": "^8.2.0",
     "gatsby": "^2.32.4",
