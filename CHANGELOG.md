@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.15](https://github.com/andyfarmerTUISHG/farmer.gq/compare/v0.1.14...v0.1.15) (2021-02-20)
+
+
+### Features
+
+* **article:** build and Display articles based on variables ([fe5716a](https://github.com/andyfarmerTUISHG/farmer.gq/commit/fe5716aa39a68f56e4ad479733bf1a02c96d1bd2))
+* **article:** build and Display articles based on variables ([f7c7497](https://github.com/andyfarmerTUISHG/farmer.gq/commit/f7c74976f15b7e02e1851774c6b61b123333fdc9))
+* **sanity:** prep Connection to Sanity CMS ([8bed1b5](https://github.com/andyfarmerTUISHG/farmer.gq/commit/8bed1b501a143d33008334636c8cb25d9de61a85))
+
+
+### Bug Fixes
+
+* **article:** added in template file ([7411bab](https://github.com/andyfarmerTUISHG/farmer.gq/commit/7411bab0e9fa7b820be3e00f0ab7ead6a46e03de))
+
 ### [0.1.14](https://github.com/andyfarmerTUISHG/farmer.gq/compare/v0.1.13...v0.1.14) (2021-02-19)
 
 
