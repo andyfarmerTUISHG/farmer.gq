@@ -1,21 +1,33 @@
 import { graphql } from 'gatsby';
 import React from 'react';
+import styled from 'styled-components';
 
 import BlockContent from '@sanity/block-content-to-react';
+import serializers from '../utils/serializers';
+
+const ArticleStyles = styled.div`
+  display: grid;
+  grid-template-columns: 80vmax 1fr;
+  gap: 20px;
+  aside pre {
+    overflow: hidden;
+  }
+`;
 
 export default function Article({ data }) {
   const {
-    article: { name, bodycopy },
+    article: { name, _rawBodycopy },
   } = data;
 
   return (
-    <div>
-      <h1>{name}</h1>
-      <h3>Author: </h3>
+    <ArticleStyles>
       <article>
-        <BlockContent blocks={bodycopy} />
+        <h1>{name}</h1>
+        <h3>Author: </h3>
+        <BlockContent blocks={_rawBodycopy} serializers={serializers} />
       </article>
-    </div>
+      <aside />
+    </ArticleStyles>
   );
 }
 
@@ -24,6 +36,7 @@ export default function Article({ data }) {
 export const query = graphql`
   query($slug: String!) {
     article: sanityArticle(slug: { current: { eq: $slug } }) {
+      _rawBodycopy
       bodycopy {
         style
         list

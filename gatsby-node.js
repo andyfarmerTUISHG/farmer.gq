@@ -33,7 +33,7 @@ async function turnArticlesIntoPages({ graphql, actions }) {
     const { name, slug } = node;
     console.log(`name ${name} - ${slug.current}`);
     createPage({
-      path: `articles/${slug.current}`,
+      path: `/articles/${slug.current}`,
       component: articleTemplate,
       context: {
         slug: slug.current,
