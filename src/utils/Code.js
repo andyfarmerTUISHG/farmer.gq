@@ -1,7 +1,8 @@
 import React from 'react';
-import SyntaxHighlighter from 'react-syntax-highlighter';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import PropTypes from 'prop-types';
 
-export default ({ node }) => {
+function Code({ node }) {
   if (!node || !node.code) {
     return null;
   }
@@ -10,4 +11,10 @@ export default ({ node }) => {
   return (
     <SyntaxHighlighter language={language || 'text'}>{code}</SyntaxHighlighter>
   );
+}
+
+Code.propTypes = {
+  node: PropTypes.object,
 };
+
+export default Code;

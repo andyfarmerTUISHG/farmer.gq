@@ -8,13 +8,6 @@ export default function articles({ data, pageContext }) {
   return (
     <div>
       <SEO title="Articles" />
-      <Pagination
-        pageSize={parseInt(process.env.GATSBY_PAGE_SIZE)}
-        totalCount={data.articles.totalCount}
-        currentPage={pageContext.currentPage || 1}
-        skip={pageContext.skip}
-        base="/articles"
-      />
       <ul>
         {data.articles.nodes.map((article, index) => (
           <li key={`${article.slug.current}-${index}`}>
@@ -22,6 +15,13 @@ export default function articles({ data, pageContext }) {
           </li>
         ))}
       </ul>
+      <Pagination
+        pageSize={parseInt(process.env.GATSBY_PAGE_SIZE)}
+        totalCount={data.articles.totalCount}
+        currentPage={pageContext.currentPage || 1}
+        skip={pageContext.skip}
+        base="/articles"
+      />
     </div>
   );
 }
