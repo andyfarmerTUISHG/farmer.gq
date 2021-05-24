@@ -63,6 +63,7 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "prepare": "husky install",
     "release": "standard-version",
     "release-push": "standard-version && git push --follow-tags origin master"
   },
