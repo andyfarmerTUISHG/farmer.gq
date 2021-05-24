@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.17](https://github.com/andyfarmerTUISHG/farmer.gq/compare/v0.1.16...v0.1.17) (2021-05-24)
+
+
+### Bug Fixes
+
+* **project:** missed the package.json ([782ae03](https://github.com/andyfarmerTUISHG/farmer.gq/commit/782ae03a6b9749bf2e7594e1096703bb167b24ff))
+* **project:** update Package.json to have a post install script ([7b3fa4a](https://github.com/andyfarmerTUISHG/farmer.gq/commit/7b3fa4a432b7dbb75cf6c298f1c1e725c9ebe5da))
+
 ### [0.1.16](https://github.com/andyfarmerTUISHG/farmer.gq/compare/v0.1.15...v0.1.16) (2021-02-21)
 
 
