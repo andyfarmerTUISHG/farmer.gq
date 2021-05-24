@@ -5,7 +5,8 @@ dotenv.config({ path: '.env' });
 export default {
   siteMetadata: {
     title: `Andy Farmer - farmer.gq`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    siteUrl: 'https://farmer-gq.netlify.app',
+    description: `My online space for notes and things`,
     author: `@andyfarmer0676`,
   },
   plugins: [
