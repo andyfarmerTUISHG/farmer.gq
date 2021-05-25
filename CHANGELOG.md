@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.18](https://github.com/andyfarmerTUISHG/farmer.gq/compare/v0.1.17...v0.1.18) (2021-05-25)
+
+
+### Features
+
+* **test.md:** this is short demo update ([edb569e](https://github.com/andyfarmerTUISHG/farmer.gq/commit/edb569eb6b1a709a8071c93094109834a2c30736))
+
 ### [0.1.17](https://github.com/andyfarmerTUISHG/farmer.gq/compare/v0.1.16...v0.1.17) (2021-05-24)
 
 
