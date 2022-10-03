@@ -22,10 +22,10 @@ function Nav() {
           <Link to="/about/">About</Link>
         </li>
         <li>
-          <Link to="/articles/mac-setup/">Build Steps</Link>
+          <Link to="/articles/mac-setup/">Mac Setup</Link>
         </li>
         <li>
-          <Link to="/work/">Work Stuff</Link>
+          <Link to="/work/">Work</Link>
         </li>
       </ul>
     </NavStyles>
