@@ -2,10 +2,10 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import Nav from './Nav';
+import Icon from '../assets/svg/andyfarmer.svg';
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
+  <header style={{
       background: `rebeccapurple`,
       marginBottom: `1.45rem`,
     }}
@@ -24,8 +24,14 @@ const Header = ({ siteTitle }) => (
             color: `white`,
             textDecoration: `none`,
           }}
+          title={siteTitle}
         >
-          {siteTitle}
+          <Icon className="logo" style={{
+            height: `auto`,
+              width: 200,
+              marginBottom: `1.45rem`,
+            }}/>
+
         </Link>
       </h1>
       <Nav />

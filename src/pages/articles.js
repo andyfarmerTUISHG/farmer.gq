@@ -2,10 +2,15 @@ import { graphql, Link } from 'gatsby';
 import React from 'react';
 import SEO from '../components/seo';
 import Pagination from '../components/pagination';
+import Layout from '../components/layout';
 
 export default function articles({ data, pageContext }) {
   console.log(data);
+  console.log(process.env)
   return (
+    <Layout>
+
+
     <div>
       <SEO title="Articles" />
       <Pagination
@@ -23,11 +28,12 @@ export default function articles({ data, pageContext }) {
         ))}
       </ul>
     </div>
+    </Layout>
   );
 }
 
 export const query = graphql`
-  query ArticlesQuery($skip: Int = 0, $pageSize: Int = 10) {
+  query ArticlesQuery($skip: Int = 0, $pageSize: Int = 50) {
     articles: allSanityArticle(limit: $pageSize, skip: $skip) {
       totalCount
       nodes {

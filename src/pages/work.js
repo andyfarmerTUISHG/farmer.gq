@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from '../components/layout'
 
 function work() {
   return (
-    <div>
+    <Layout>
       This is my work / and what I do...
-    </div>
+    </Layout>
   )
 }
 

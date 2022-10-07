@@ -21,7 +21,7 @@ const GlobalStyles = createGlobalStyle`
     image-rendering: -moz-crisp-edges;
     image-rendering: pixelated;
   }
-  
+
   /* Scrollbar Styles */
   body::-webkit-scrollbar {
     width: 12px;
@@ -42,6 +42,19 @@ const GlobalStyles = createGlobalStyle`
   img {
     max-width: 100%;
   }
+
+  .parent {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 6; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 1 / 3 / 2 / 5; }
+.div4 { grid-area: 2 / 2 / 6 / 5; }
 `;
 
 export default GlobalStyles;

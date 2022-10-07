@@ -32,6 +32,20 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
+        <div class="parent">
+        <div class="div1">1 </div>
+        <div class="div2"> 2</div>
+        <div class="div3"> 3</div>
+        <div class="div4"> 4</div>
+        <div class="div5"> 5</div>
+        </div>
+        <div class="parent">
+<div class="div1"> </div>
+<div class="div2"> </div>
+<div class="div3"> </div>
+<div class="div4"> </div>
+</div>
+
       </div>
       <Footer />
     </>

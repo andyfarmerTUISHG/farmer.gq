@@ -1,11 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
+import TagManager from 'react-gtm-module'
 
 const FooterStyles = styled.div`
   border-top: 2px solid var(--purple);
   padding-top: 3rem;
   text-align: center;
 `;
+
+
+// const tagManagerArgs = {
+//     gtmId: 'GTM-NS99NRS'
+// }
+
+// TagManager.initialize(tagManagerArgs)
 
 function footer() {
   return (
