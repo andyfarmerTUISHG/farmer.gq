@@ -27,6 +27,9 @@ function Nav() {
         <li>
           <Link to="/work/">Work</Link>
         </li>
+        <li>
+          <Link to="/animation/">CSS Animation</Link>
+        </li>
       </ul>
     </NavStyles>
   );
