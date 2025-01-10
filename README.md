@@ -8,8 +8,8 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 ## Pre-Requistes
 
-- Gatsby CLI
-- sanity cli
+- [Gatsby CLI](https://www.gatsbyjs.com/docs/reference/gatsby-cli/)
+- [sanity cli](https://www.sanity.io/docs/cli)
 
 ## 🚀 Quick start
 
