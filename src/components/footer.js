@@ -10,9 +10,9 @@ const FooterStyles = styled.div`
 function footer() {
   return (
     <FooterStyles>
-      © {new Date().getFullYear()}, Built with
+      © {new Date().getFullYear()}, Built with Love and Effort
       {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby</a> by Andy Farmer
+      <a href="https://www.gatsbyjs.org">Gatsby </a> by Andy Farmer
     </FooterStyles>
   );
 }
