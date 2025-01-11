@@ -12,7 +12,7 @@ function footer() {
     <FooterStyles>
       © {new Date().getFullYear()}, Built with
       {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby</a> by Andy Farmer
+      <a href="https://www.gatsbyjs.org">Gatsby</a> by <a href="https://farmer-gq.netlify.app/">Andy Farmer</a>
     </FooterStyles>
   );
 }

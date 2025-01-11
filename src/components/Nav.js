@@ -22,7 +22,13 @@ function Nav() {
           <Link to="/about/">About</Link>
         </li>
         <li>
+          <Link to="/articles/mac-setup/">Mac Setup</Link>
+        </li>
+        <li>
           <Link to="/work/">Work</Link>
+        </li>
+        <li>
+          <Link to="/animation/">CSS Animation</Link>
         </li>
       </ul>
     </NavStyles>

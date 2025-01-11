@@ -16,6 +16,7 @@ export default {
     // `gatsby-plugin-offline`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
     {
       // this is the name of the plugin
       resolve: 'gatsby-source-sanity',
