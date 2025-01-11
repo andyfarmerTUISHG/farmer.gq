@@ -21,6 +21,7 @@ export default {
       resolve: 'gatsby-source-sanity',
       options: {
         projectId: 'ix9xb2vm',
+        apiVersion: '2021-08-31', // use a UTC date string
         dataset: 'production',
         watchMode: true,
         token: process.env.SANITY_TOKEN,
