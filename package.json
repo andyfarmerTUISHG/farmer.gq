@@ -6,8 +6,8 @@
   "author": "Andy Farmer",
   "dependencies": {
     "@sanity/block-content-to-react": "^2.0.7",
-    "babel-plugin-styled-components": "^1.13.3",
-    "dotenv": "^8.6.0",
+    "babel-plugin-styled-components": "^2.1.4",
+    "dotenv": "^16.4.7",
     "gatsby": "^3.0.0",
     "gatsby-plugin-image": "^2.0.0",
     "gatsby-plugin-manifest": "^2.12.0",
